@@ -7,13 +7,6 @@ class StockQuote
   end
 
   def price(symbol)
-    # Clear out buffers
-    STDOUT.flush
-
-    # Ask for and get input
-    #puts "Enter a stock symbol: "
-    #symbol = gets.chomp
-
     # Create a URI object for the stock info
     uri = URI('http://www.google.com/finance/info?infotype=infoquoteall&q=' + symbol)
 
