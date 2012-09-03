@@ -1,3 +1,11 @@
+# StockQuote
+# Ben Garvey
+# ben@bengarvey.com
+# http://www.bengarvey.com
+# @bengarvey
+# 09/01/2012
+# Description:  This class uses the Google finance API to retrieve the latest price for a given stock symbol.
+
 require 'net/http'
 require 'json'
 require 'rubygems'
@@ -28,7 +36,8 @@ class StockQuote
   end
 end
 
-sq = StockQuote.new
-puts sq.price('GOOG')
-puts sq.price('AAPL')
-puts sq.price('AMZN')
+# Example usage
+# sq = StockQuote.new
+# puts sq.price('GOOG')
+# puts sq.price('AAPL')
+# puts sq.price('AMZN')
