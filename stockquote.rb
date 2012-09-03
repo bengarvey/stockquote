@@ -31,7 +31,7 @@ class StockQuote
       exit
     end
 
-    # return the layest price
+    # return the latest price
     stockdata[0]['l']
   end
 end
