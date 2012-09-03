@@ -5,8 +5,8 @@ Ruby script to get the latest stock price for any stock symbol.  Uses the Google
 
 Example Usage
 
-sq = Stockquote.new
-puts sq.price('GOOG')
-puts sq.price('AAPL')
-puts sq.price('AMZN')
+sq = Stockquote.new<br>
+puts sq.price('GOOG')<br>
+puts sq.price('AAPL')<br>
+puts sq.price('AMZN')<br>
 
